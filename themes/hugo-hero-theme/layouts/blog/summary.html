@@ -1,0 +1,17 @@
+<div class="work work-summary">
+  {{ if .Params.thumbnail }}
+  <div class="work-image">
+    <a href="{{ .RelPermalink }}"><img src="{{ .Params.thumbnail | relURL }}"/></a>
+  </div>
+  {{ end }}
+  <div class="work-content">
+    <h2 class="work-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    <div class="h6">
+    <label style="float: left;"><b>Author: </b>{{ .Params.author}}</label>
+    <label style="float: Right;"><b>Posted: </b>{{ .Params.date |time.Format "2006-01-02" }}</label><br>
+    </div>
+    {{ .Content | truncate 120 "..." | plainify }}
+  </div>
+</div>

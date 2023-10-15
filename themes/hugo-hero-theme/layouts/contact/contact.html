@@ -1,0 +1,82 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-contact{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+{{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+<script>
+  window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
+</script>
+<div class="intro intro-small">
+  <div class="container">
+    <div class="row">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="form-control">
+      <br>
+      <h4>Send us a Message </h4>
+      <br>
+      <form accept-charset="UTF-8" action="https://formspree.io/f/xoqoevol" method="POST">
+        <div class="form-text">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-text">
+          <label for="email" class="form-label">Email </label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-text">
+          <label for="tel" class="input-group">Phone Number </label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-text">
+          <label for="message" class="form-label">Message</label>
+          <textarea type="email" id="message" name="message" required style="height: 150px;"></textarea>
+        </div>
+        <br>
+        <button type="submit" style="background-color: #010f49;color: white;border-radius: 12px; height: 40px;">Book a Call</button>
+      </form>
+    </div>
+
+    <div class="about col-12 col-md-8">
+      <ul>
+        {{ if .Site.Data.contact.phone }}
+        <li style="list-style: none;"><strong>Phone: </strong>{{ .Site.Data.contact.phone }}</li>
+        {{ end }}
+        {{ if .Site.Data.contact.email }}
+        <li style="list-style: none;"><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
+            {{ .Site.Data.contact.email }}</a></li>
+        {{ end }}
+        <br>
+        <br>
+        {{ if .Site.Data.contact.address }}
+        <li style="white-space: pre-wrap; list-style: none;"><strong>Office Address: </strong><br>{{ .Site.Data.contact.address }}</li>
+        {{ end }}
+      </ul>
+      <br>
+      <br>
+      {{ if .Site.Data.contact.hours }}
+      <h4 class="mt-4">Business Hours</h4>
+      <table class="table table-sm opening-hours-table">
+        {{ range .Site.Data.contact.hours }}
+        <tr>
+          <td class="day font-weight-bold">{{ .day }}</td>
+          <td class="opens">{{ .open }}</td>
+          <td>-</td>
+          <td class="closes">{{ .close }}</td>
+        </tr>
+        {{ end }}
+      </table>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

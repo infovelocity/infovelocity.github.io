@@ -1,0 +1,77 @@
+baseURL = "https://infovelocity.io/"
+languageCode = "en-us"
+title = "InfoVelocity - Empowering Businesses"
+theme = "hugo-hero-theme"
+publishDir = "docs"
+
+extensions = [
+  "laxHtmlBlocks", # laxer block handling... let's see what this does?
+  "hardLineBreak", # newlines result in line breaks
+]
+
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+
+[params]
+  google_analytics_id=""
+
+  [params.logo]
+    mobile = "images/logo-mobile.jpg"
+    mobile_height = "100px"
+    mobile_width = "100px"
+    desktop = "images/logo.svg"
+    desktop_height = "29px"
+    desktop_width = "217px"
+    alt = "Hugo Hero"
+
+  [params.homepage_meta_tags]
+    meta_description = "Empowering companies with real-time information for agile decision-making in a rapidly changing landscape.​"
+    meta_og_title = "InfoVelocity -  Empowering Businesses"
+    meta_og_type = "website"
+    meta_og_url = "https://infovelocity.io"
+    meta_og_image = "https://raw.github.com/infovelocity/infovelocity.github.io/blob/main/images/logo.png"
+    meta_og_description = "Empowering companies with real-time information for agile decision-making in a rapidly changing landscape."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@infovelocityio"
+    meta_twitter_creator = "@infovelocityio"
+
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Services"
+  url = "/services/"
+  weight = 2
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 4
+
+[[menu.main]]
+  name = "About Us"
+  url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 5
+
+
+#[[menu.main]]
+#    name = "History"
+#    url = "/history/"
+#    weight = 3
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
+
+

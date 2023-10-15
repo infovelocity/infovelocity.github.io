@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Github",
+        "link": "https://github.com/infovelocity",
+        "image": "social/github.svg"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/infovelocityio",
+        "image": "social/twitter.svg"
+    },
+    {
+        "name": "Linkedin",
+        "link": "https://linkedin.com/infovelocity",
+        "image": "social/linkedin-white.png"
+    }
+]
