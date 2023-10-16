@@ -10,10 +10,12 @@ heroBackground: 'https://source.unsplash.com/zglUlG8k47I/1600x500'
 # Infovelocity Ltd
 ## Carbon Reduction Policy
 #### Effective Date: [08/08/2023]
-
+***
 #### Introduction
 
-At Infovelocity ltd, we are committed to mitigating our environmental impact and contributing to a sustainable future. We recognize the importance of addressing climate change and reducing our carbon footprint. This Carbon Reduction Policy outlines our commitment to implementing measures that aim to reduce our carbon emissions and promote responsible environmental practices.
+At Infovelocity ltd, we are committed to mitigating our environmental impact and contributing to a sustainable future.
+
+We recognize the importance of addressing climate change and reducing our carbon footprint. This Carbon Reduction Policy outlines our commitment to implementing measures that aim to reduce our carbon emissions and promote responsible environmental practices.
 
 #### Our Carbon Reduction Goals
 
@@ -82,3 +84,5 @@ KT14 7JF
 Surrey
 
 By implementing this Carbon Reduction Policy, we aim to contribute to a more sustainable and resilient future while fulfilling our responsibility as a socially and environmentally conscious business. Together, let us take significant steps toward a greener and cleaner world.
+
+***
