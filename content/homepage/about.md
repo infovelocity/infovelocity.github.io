@@ -3,7 +3,7 @@ title: 'The InfoVelocity Difference'
 weight: 2
 background: ''
 button: 'About Us'
-buttonLink: 'about'
+buttonLink: 'about/'
 ---
 Embrace a future powered by data-driven decisions with InfoVelocity as your trusted partner. Together, we will unlock new possibilities and drive your organization's success. By joining forces with us you gain:
 
