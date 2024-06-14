@@ -1,12 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on InfoVelocity - Empowering Businesses</title><link>https://infovelocity.io/blog/</link><description>Recent content in Blog on InfoVelocity - Empowering Businesses</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://infovelocity.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Kafka - Consumer Groups</title><link>https://infovelocity.io/blog/kafka-consumer-groups/</link><pubDate>Wed, 09 Aug 2023 09:30:00 +1000</pubDate><guid>https://infovelocity.io/blog/kafka-consumer-groups/</guid><description>Apache Kafka is a distributed event streaming platform known for its scalability and ability to handle large volumes of data. Kafka consumer groups are a crucial feature that enables parallel processing of messages from topics. In this article, we&amp;rsquo;ll explore the concepts behind Kafka consumer groups and discuss the various types of membership.
-Consumer Groups: The Basics A Kafka consumer group is a group of consumers that work together to consume messages from Kafka topics.</description></item><item><title>Python - Get no of messages from MSK</title><link>https://infovelocity.io/blog/python-getting-topic-counts/</link><pubDate>Sun, 06 Aug 2023 12:33:46 +1000</pubDate><guid>https://infovelocity.io/blog/python-getting-topic-counts/</guid><description>Apache Kafka is a powerful distributed event streaming platform that often involves monitoring and managing the data in various partitions of a topic. In this article, we&amp;rsquo;ll explore how to use Python to determine the number of messages in each partition of a Kafka topic.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on InfoVelocity - Empowering Businesses</title>
+    <link>https://infovelocity.io/blog/</link>
+    <description>Recent content in Blog on InfoVelocity - Empowering Businesses</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://infovelocity.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kafka - Consumer Groups</title>
+      <link>https://infovelocity.io/blog/kafka-consumer-groups/</link>
+      <pubDate>Wed, 09 Aug 2023 09:30:00 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/blog/kafka-consumer-groups/</guid>
+      <description>Apache Kafka is a distributed event streaming platform known for its scalability and ability to handle large volumes of data. Kafka consumer groups are a crucial feature that enables parallel processing of messages from topics. In this article, we&amp;rsquo;ll explore the concepts behind Kafka consumer groups and discuss the various types of membership.
+Consumer Groups: The Basics A Kafka consumer group is a group of consumers that work together to consume messages from Kafka topics.</description>
+    </item>
+    
+    <item>
+      <title>Python - Get no of messages from MSK</title>
+      <link>https://infovelocity.io/blog/python-getting-topic-counts/</link>
+      <pubDate>Sun, 06 Aug 2023 12:33:46 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/blog/python-getting-topic-counts/</guid>
+      <description>Apache Kafka is a powerful distributed event streaming platform that often involves monitoring and managing the data in various partitions of a topic. In this article, we&amp;rsquo;ll explore how to use Python to determine the number of messages in each partition of a Kafka topic.
 Prerequisites Before you start, make sure you have the following:
-A running Kafka cluster. Python installed on your system. Confluent&amp;rsquo;s confluent-kafka-python library, which provides a Kafka client for Python.</description></item><item><title>Python - Consuming from MSK with TLS</title><link>https://infovelocity.io/blog/python-consuming-from-msk/</link><pubDate>Sat, 05 Aug 2023 12:33:46 +1000</pubDate><guid>https://infovelocity.io/blog/python-consuming-from-msk/</guid><description>Apache Kafka is a popular choice for building scalable and robust real-time data pipelines. When dealing with sensitive data or communication across untrusted networks, it&amp;rsquo;s crucial to secure your Kafka communication using TLS. In this article, we&amp;rsquo;ll explore how to consume Kafka messages with Python while utilizing TLS for secure data transfer.
+A running Kafka cluster. Python installed on your system. Confluent&amp;rsquo;s confluent-kafka-python library, which provides a Kafka client for Python.</description>
+    </item>
+    
+    <item>
+      <title>Python - Consuming from MSK with TLS</title>
+      <link>https://infovelocity.io/blog/python-consuming-from-msk/</link>
+      <pubDate>Sat, 05 Aug 2023 12:33:46 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/blog/python-consuming-from-msk/</guid>
+      <description>Apache Kafka is a popular choice for building scalable and robust real-time data pipelines. When dealing with sensitive data or communication across untrusted networks, it&amp;rsquo;s crucial to secure your Kafka communication using TLS. In this article, we&amp;rsquo;ll explore how to consume Kafka messages with Python while utilizing TLS for secure data transfer.
 Prerequisites Before you start, make sure you have the following:
-A running Kafka cluster with TLS enabled. Python installed on your system.</description></item><item><title>Confluent - Schema Registry Introduction</title><link>https://infovelocity.io/blog/kafka-schemaregistry-introduction/</link><pubDate>Fri, 04 Aug 2023 12:33:46 +1000</pubDate><guid>https://infovelocity.io/blog/kafka-schemaregistry-introduction/</guid><description>Apache Kafka is a popular platform for building real-time data pipelines and streaming applications. One critical aspect of managing data in Kafka is handling the evolving structure of the data produced and consumed by various applications. This is where the Kafka Schema Registry comes into play.
-What is Schema Registry? The Kafka Schema Registry is a centralized service that manages the schemas (the structure of data) for Kafka messages. It acts as a repository for schemas and provides a way to ensure that producers and consumers agree on the structure of the data being exchanged in Kafka topics.</description></item><item><title>Kafka - Consume messages via cli</title><link>https://infovelocity.io/blog/kafka-consume-cli/</link><pubDate>Thu, 03 Aug 2023 12:33:46 +1000</pubDate><guid>https://infovelocity.io/blog/kafka-consume-cli/</guid><description>Apache Kafka is a powerful platform for handling real-time data streams. One of the most common tasks when working with Kafka is consuming messages from topics. In this article, we&amp;rsquo;ll explore how to consume Kafka messages using the command-line interface (CLI).
+A running Kafka cluster with TLS enabled. Python installed on your system.</description>
+    </item>
+    
+    <item>
+      <title>Confluent - Schema Registry Introduction</title>
+      <link>https://infovelocity.io/blog/kafka-schemaregistry-introduction/</link>
+      <pubDate>Fri, 04 Aug 2023 12:33:46 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/blog/kafka-schemaregistry-introduction/</guid>
+      <description>Apache Kafka is a popular platform for building real-time data pipelines and streaming applications. One critical aspect of managing data in Kafka is handling the evolving structure of the data produced and consumed by various applications. This is where the Kafka Schema Registry comes into play.
+What is Schema Registry? The Kafka Schema Registry is a centralized service that manages the schemas (the structure of data) for Kafka messages. It acts as a repository for schemas and provides a way to ensure that producers and consumers agree on the structure of the data being exchanged in Kafka topics.</description>
+    </item>
+    
+    <item>
+      <title>Kafka - Consume messages via cli</title>
+      <link>https://infovelocity.io/blog/kafka-consume-cli/</link>
+      <pubDate>Thu, 03 Aug 2023 12:33:46 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/blog/kafka-consume-cli/</guid>
+      <description>Apache Kafka is a powerful platform for handling real-time data streams. One of the most common tasks when working with Kafka is consuming messages from topics. In this article, we&amp;rsquo;ll explore how to consume Kafka messages using the command-line interface (CLI).
 Prerequisites Before you get started, make sure you have the following:
-A running Kafka cluster. Kafka command-line tools installed on your system (part of the Kafka distribution). Using the Kafka Console Consumer The Kafka distribution comes with a handy command-line tool called kafka-console-consumer that allows you to consume messages from Kafka topics.</description></item><item><title>Kafka - produce messages via cli</title><link>https://infovelocity.io/blog/kafka-produce-cli/</link><pubDate>Wed, 02 Aug 2023 09:30:00 +1000</pubDate><guid>https://infovelocity.io/blog/kafka-produce-cli/</guid><description>Apache Kafka is a versatile platform for handling real-time data streams. One essential task is producing messages to Kafka topics. In this article, we&amp;rsquo;ll explore how to produce Kafka messages using the command-line interface (CLI).
+A running Kafka cluster. Kafka command-line tools installed on your system (part of the Kafka distribution). Using the Kafka Console Consumer The Kafka distribution comes with a handy command-line tool called kafka-console-consumer that allows you to consume messages from Kafka topics.</description>
+    </item>
+    
+    <item>
+      <title>Kafka - produce messages via cli</title>
+      <link>https://infovelocity.io/blog/kafka-produce-cli/</link>
+      <pubDate>Wed, 02 Aug 2023 09:30:00 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/blog/kafka-produce-cli/</guid>
+      <description>Apache Kafka is a versatile platform for handling real-time data streams. One essential task is producing messages to Kafka topics. In this article, we&amp;rsquo;ll explore how to produce Kafka messages using the command-line interface (CLI).
 Prerequisites Before you start, make sure you have the following:
-A running Kafka cluster. Kafka command-line tools installed on your system (part of the Kafka distribution). Using the Kafka Console Producer The Kafka distribution comes with a powerful command-line tool called kafka-console-producer that allows you to produce messages to Kafka topics.</description></item><item><title>Kafka - Introduction</title><link>https://infovelocity.io/blog/kafka-introduction/</link><pubDate>Tue, 01 Aug 2023 09:30:00 +1000</pubDate><guid>https://infovelocity.io/blog/kafka-introduction/</guid><description>Apache Kafka is a powerful distributed event streaming platform that has gained immense popularity in recent years. It was originally developed by engineers at LinkedIn to address the challenges of handling real-time data feeds, and it has since evolved into an essential component for building scalable and resilient data pipelines.
-Core Concepts At the heart of Kafka&amp;rsquo;s design are several key concepts that make it well-suited for handling large volumes of streaming data.</description></item></channel></rss>
+A running Kafka cluster. Kafka command-line tools installed on your system (part of the Kafka distribution). Using the Kafka Console Producer The Kafka distribution comes with a powerful command-line tool called kafka-console-producer that allows you to produce messages to Kafka topics.</description>
+    </item>
+    
+    <item>
+      <title>Kafka - Introduction</title>
+      <link>https://infovelocity.io/blog/kafka-introduction/</link>
+      <pubDate>Tue, 01 Aug 2023 09:30:00 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/blog/kafka-introduction/</guid>
+      <description>Apache Kafka is a powerful distributed event streaming platform that has gained immense popularity in recent years. It was originally developed by engineers at LinkedIn to address the challenges of handling real-time data feeds, and it has since evolved into an essential component for building scalable and resilient data pipelines.
+Core Concepts At the heart of Kafka&amp;rsquo;s design are several key concepts that make it well-suited for handling large volumes of streaming data.</description>
+    </item>
+    
+  </channel>
+</rss>

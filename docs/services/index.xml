@@ -1,8 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Services on InfoVelocity - Empowering Businesses</title><link>https://infovelocity.io/services/</link><description>Recent content in Services on InfoVelocity - Empowering Businesses</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://infovelocity.io/services/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture</title><link>https://infovelocity.io/services/architecture/</link><pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate><guid>https://infovelocity.io/services/architecture/</guid><description>We specialize in formulating and executing a clear, innovative vision that aligns people, processes, and technology with your long-term strategic goals, ensuring sustainable and integrative architectural solutions for organizational excellence.
-Enterprise Architecture Tailored solutions growing with your enterprise. Our dedicated Enterprise Architecture services focus on ensuring your organizational structure, processes, and technology are seamlessly integrated. By understanding your business deeply, we sculpt architectures that not only address immediate needs but also set the foundation for sustainable future growth.</description></item><item><title>Engineering</title><link>https://infovelocity.io/services/engineering/</link><pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate><guid>https://infovelocity.io/services/engineering/</guid><description>We specialize in building bespoke, client-centric software, unlocking unparalleled possibilities for your organization.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on InfoVelocity - Empowering Businesses</title>
+    <link>https://infovelocity.io/services/</link>
+    <description>Recent content in Services on InfoVelocity - Empowering Businesses</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://infovelocity.io/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>https://infovelocity.io/services/architecture/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/services/architecture/</guid>
+      <description>We specialize in formulating and executing a clear, innovative vision that aligns people, processes, and technology with your long-term strategic goals, ensuring sustainable and integrative architectural solutions for organizational excellence.
+Enterprise Architecture Tailored solutions growing with your enterprise. Our dedicated Enterprise Architecture services focus on ensuring your organizational structure, processes, and technology are seamlessly integrated. By understanding your business deeply, we sculpt architectures that not only address immediate needs but also set the foundation for sustainable future growth.</description>
+    </item>
+    
+    <item>
+      <title>Engineering</title>
+      <link>https://infovelocity.io/services/engineering/</link>
+      <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/services/engineering/</guid>
+      <description>We specialize in building bespoke, client-centric software, unlocking unparalleled possibilities for your organization.
 Our teams emphasize security-first, prototype-driven solutions, providing sustained support, ensuring seamless integration and consistent enhancement of business value in alignment with industry best practices.
-Our Approach to Engineering System Evaluation and Transformation Our seasoned professionals undertake a comprehensive assessment of your existing systems, pinpointing opportunities to integrate novel technologies and methodologies to rejuvenate your pivotal business infrastructure.</description></item><item><title>Data</title><link>https://infovelocity.io/services/data/</link><pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate><guid>https://infovelocity.io/services/data/</guid><description>Data in its essence, is the lifeblood of modern organizations, serving as a pivotal tool for informed decision-making and innovation.
-Our holistic approach to data architecture incorporates cutting-edge methodologies, guaranteeing data integrity, availability, and peak performance. By meticulously integrating your diverse data sources, we amplify data reliability and precision, setting the stage for strategic insights. Our state-of-the-art data platform, with its real-time analytics capabilities, is designed to be both adaptable and cost-efficient.</description></item><item><title>Cloud</title><link>https://infovelocity.io/services/cloud/</link><pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate><guid>https://infovelocity.io/services/cloud/</guid><description>In today&amp;rsquo;s dynamic business environment, an efficient cloud strategy is vital for agility and growth of any business.
-We champion a cloud-centric approach, emphasizing continuous evolution to meet future challenges head-on. With our focus on adaptive elasticity, we offer resource optimization that&amp;rsquo;s both flexible and cost-effective. Our cloud solutions are meticulously designed with paramount security, ensuring not only functionality but also protection. With a robust approach to cloud engineering, we customize strategies that align with your organization&amp;rsquo;s unique trajectory.</description></item><item><title>Digital Transformation</title><link>https://infovelocity.io/services/transformation/</link><pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate><guid>https://infovelocity.io/services/transformation/</guid><description>In an era defined by rapid technological advancements, digital transformation has become imperative for businesses striving for growth and adaptability.
-We are dedicated to guiding organizations through this pivotal shift. From transitioning data and applications from legacy systems to modern cloud platforms, to customizing applications for optimal cloud performance, we ensure a smooth evolution. Beyond mere transitions, we also focus on overhauling your infrastructure to be dynamic and future-ready. Our commitment extends to strategic consultations, where we align your digital strategies with your business vision, factoring in current industry trends and emerging technologies.</description></item><item><title>Security</title><link>https://infovelocity.io/services/security/</link><pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate><guid>https://infovelocity.io/services/security/</guid><description>We recognize that security is an ever-evolving domain. Hence, we emphasize the importance of a thorough security framework.
-Our &amp;ldquo;Holistic Security Blueprint&amp;rdquo; is designed to guide businesses in establishing robust security measures. By keeping an eye on upcoming challenges and emphasizing resilience and accuracy, we guarantee potent cyber strategies, adherence to regulations, and precise counteractions across different digital platforms.We collaborates with industry leaders to provide advanced security insights to our clients on mitigating threats proactively.</description></item></channel></rss>
+Our Approach to Engineering System Evaluation and Transformation Our seasoned professionals undertake a comprehensive assessment of your existing systems, pinpointing opportunities to integrate novel technologies and methodologies to rejuvenate your pivotal business infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://infovelocity.io/services/data/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/services/data/</guid>
+      <description>Data in its essence, is the lifeblood of modern organizations, serving as a pivotal tool for informed decision-making and innovation.
+Our holistic approach to data architecture incorporates cutting-edge methodologies, guaranteeing data integrity, availability, and peak performance. By meticulously integrating your diverse data sources, we amplify data reliability and precision, setting the stage for strategic insights. Our state-of-the-art data platform, with its real-time analytics capabilities, is designed to be both adaptable and cost-efficient.</description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://infovelocity.io/services/cloud/</link>
+      <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/services/cloud/</guid>
+      <description>In today&amp;rsquo;s dynamic business environment, an efficient cloud strategy is vital for agility and growth of any business.
+We champion a cloud-centric approach, emphasizing continuous evolution to meet future challenges head-on. With our focus on adaptive elasticity, we offer resource optimization that&amp;rsquo;s both flexible and cost-effective. Our cloud solutions are meticulously designed with paramount security, ensuring not only functionality but also protection. With a robust approach to cloud engineering, we customize strategies that align with your organization&amp;rsquo;s unique trajectory.</description>
+    </item>
+    
+    <item>
+      <title>Digital Transformation</title>
+      <link>https://infovelocity.io/services/transformation/</link>
+      <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/services/transformation/</guid>
+      <description>In an era defined by rapid technological advancements, digital transformation has become imperative for businesses striving for growth and adaptability.
+We are dedicated to guiding organizations through this pivotal shift. From transitioning data and applications from legacy systems to modern cloud platforms, to customizing applications for optimal cloud performance, we ensure a smooth evolution. Beyond mere transitions, we also focus on overhauling your infrastructure to be dynamic and future-ready. Our commitment extends to strategic consultations, where we align your digital strategies with your business vision, factoring in current industry trends and emerging technologies.</description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://infovelocity.io/services/security/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
+      
+      <guid>https://infovelocity.io/services/security/</guid>
+      <description>We recognize that security is an ever-evolving domain. Hence, we emphasize the importance of a thorough security framework.
+Our &amp;ldquo;Holistic Security Blueprint&amp;rdquo; is designed to guide businesses in establishing robust security measures. By keeping an eye on upcoming challenges and emphasizing resilience and accuracy, we guarantee potent cyber strategies, adherence to regulations, and precise counteractions across different digital platforms.We collaborates with industry leaders to provide advanced security insights to our clients on mitigating threats proactively.</description>
+    </item>
+    
+  </channel>
+</rss>
